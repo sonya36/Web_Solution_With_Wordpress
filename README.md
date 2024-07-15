@@ -249,7 +249,7 @@ To function, WordPress has to be installed on a web server, either as part of an
     FLUSH PRIVILEGES;
     exit
     ```
-    ![Databse User Connection](./images/dataabse.png)
+    ![Databse User Connection](./images/database.png)
 - Configured Wordpress to connect to remote database 
     - Added inbpund rule in dataabse_server for TCP 3306 (MySQL/ Aurora) with source (webserver_private_ip)/32.
 
